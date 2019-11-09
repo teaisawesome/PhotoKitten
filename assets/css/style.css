@@ -1,0 +1,23 @@
+body
+{
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover; 
+}
+nav
+{
+    font-size: 1.1em;
+    font-family: 'Georgia';
+}
+.navbar-brand
+{
+    font-size: 1.1em;
+}
+.navbar-brand > img
+{
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
