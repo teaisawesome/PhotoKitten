@@ -32,14 +32,24 @@
   <hr class="my-4">
 </section>
 <div class="container-fluid">
-  <div class="row featurette">
-    <div class="col-md-5 text-center">
-      <img class="img-fluid mx-auto featurette-image" src="<?php echo base_url()."assets/img/section-img2.jpg";?>">
+  <section class="row">
+    <div class="col-md-6 text-center">
+      <img class="img-fluid mx-auto" src="<?php echo base_url()."assets/img/section-img1.jpg";?>">
     </div>
-    <div class="col-md-5 text-center">
+    <div class="col-md-6 text-center">
       <h2>Lorem ipsum</h2>
       <hr>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id nulla libero, fugit perspiciatis ad porro beatae adipisci commodi blanditiis ut nobis veniam aliquam quas obcaecati sequi, explicabo neque quo.</p>
     </div>
-  </div>
+  </section>
+  <section class="row">
+    <div class="col-md-6 text-center content">
+      <h2>Lorem ipsum</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id nulla libero, fugit perspiciatis ad porro beatae adipisci commodi blanditiis ut nobis veniam aliquam quas obcaecati sequi, explicabo neque quo.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img class="img-fluid mx-auto" src="<?php echo base_url()."assets/img/section-img2.jpg";?>">
+    </div>
+  </section>
 </div>

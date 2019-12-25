@@ -22,15 +22,9 @@
     color: whitesmoke;
 }
 .img-fluid
-{    
-    max-height: 60%;
-    max-width: 60%;
-    height: auto;
-    width: auto;
-}
-.col-md-6
 {
-    background-color: red;
+    /* ide megy majd a kép méretezés*/
+    height: auto;
 }
 nav
 {
