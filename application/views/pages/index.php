@@ -23,7 +23,7 @@
   </nav>
   <section>
     <h1>Imádjuk a cicákat!</h1>
-    <p>Ha te is cica fanatikus vagy itt a helyed! Regisztrálj most!</p>
+    <p>Ha te is cica fanatikus vagy itt a helyed! <a href="">Regisztrálj most!</a></p>
   </section>
 </div>
 <section class="jumbotron">

@@ -1,6 +1,6 @@
 .front-view
 {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../img/bg2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -13,9 +13,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2rem;
-    width: 80vw;
+    width: 60vw;
 
     border: thin solid black;
+    box-shadow: 0px 0px 25px black;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.2);
     color: whitesmoke;
