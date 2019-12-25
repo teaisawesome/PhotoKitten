@@ -1,11 +1,24 @@
 .front-view
 {
     height: 100vh;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    /*background-attachment:fixed;*/
     background-size: cover;
+}
+.front-view > section
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    width: 80vw;
+
+    border: thin solid black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: whitesmoke;
 }
 .img-fluid
 {    

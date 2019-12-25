@@ -21,6 +21,10 @@
         </ul>
       </div>
   </nav>
+  <section>
+    <h1>Imádjuk a cicákat!</h1>
+    <p>Ha te is cica fanatikus vagy itt a helyed! Regisztrálj most!</p>
+  </section>
 </div>
 <section class="jumbotron">
   <h1 class="display-4 text-center">Hello World!<h1>
