@@ -1,7 +1,7 @@
 .front-view
 {
     min-height: 100vh;
-    background-image: url("../img/bg2.jpg");
+    background-image: url("../img/bgcat.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,10 +34,41 @@ nav
 .navbar-brand
 {
     font-size: 1.1em;
+    color: black !important;
 }
 .navbar-brand > img
 {
-    margin: 0;
-    width: 5rem;
-    height: 5rem;
+    display: inline-block;
+    width: 1.5em;
+    margin-bottom: 0.3em;
+}
+.nav-link
+{
+    color: black !important;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1rem;
+}
+.nav-item:nth-child(2)
+{
+    /*itt még átírni mert nem jó megoldás :C*/
+    margin: 0 1rem 0 1rem;
+}
+@media only screen
+and (min-width: 300px)
+and (max-width: 480px)
+{
+    .navbar-nav
+    {
+        text-align: center;
+    }
+}
+@media only screen 
+and (min-width: 768px)
+and (max-width: 1024px)
+{
+    .navbar-nav
+    {
+        text-align: center;
+    }
 }
