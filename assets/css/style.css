@@ -1,10 +1,12 @@
 .front-view
 {
     min-height: 100vh;
-    background-image: url("../img/bgcat.jpg");
+    background-image: url("../img/bg.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.9;
+    box-shadow: 0px 0px 25px black;
 }
 .front-view > section
 {
@@ -34,7 +36,7 @@ nav
 .navbar-brand
 {
     font-size: 1.1em;
-    color: black !important;
+    color: whitesmoke !important;
 }
 .navbar-brand > img
 {
@@ -44,7 +46,7 @@ nav
 }
 .nav-link
 {
-    color: black !important;
+    color: whitesmoke !important;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: 1rem;
@@ -53,6 +55,13 @@ nav
 {
     /*itt még átírni mert nem jó megoldás :C*/
     margin: 0 1rem 0 1rem;
+}
+.section-right-textbox
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 @media only screen
 and (min-width: 300px)

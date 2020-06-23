@@ -29,22 +29,14 @@
 <div class="container-fluid">
   <section class="row">
     <div class="col-md-6 text-center">
-      <img class="img-fluid mx-auto" src="<?php echo base_url()."assets/img/section-img1.jpg";?>">
+      <img class="img-fluid mx-auto" src="<?php echo base_url()."assets/img/garfield.png";?>">
     </div>
-    <div class="col-md-6 text-center">
-      <h2>Lorem ipsum</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id nulla libero, fugit perspiciatis ad porro beatae adipisci commodi blanditiis ut nobis veniam aliquam quas obcaecati sequi, explicabo neque quo.</p>
-    </div>
-  </section>
-  <section class="row">
-    <div class="col-md-6 text-center content">
-      <h2>Lorem ipsum</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id nulla libero, fugit perspiciatis ad porro beatae adipisci commodi blanditiis ut nobis veniam aliquam quas obcaecati sequi, explicabo neque quo.</p>
-    </div>
-    <div class="col-md-6 text-center">
-      <img class="img-fluid mx-auto" src="<?php echo base_url()."assets/img/section-img2.jpg";?>">
+    <div class="col-md-6 text-center section-right-textbox">
+      <h1 class="font-weight-bold">Garfield - A híres macska</h1>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laudantium id nulla libero, fugit perspiciatis ad porro beatae adipisci commodi blanditiis ut nobis veniam
+        aliquam quas obcaecati sequi, explicabo neque quo.
+      </h3>
     </div>
   </section>
 </div>
