@@ -23,6 +23,30 @@
     background-color: rgba(0, 0, 0, 0.2);
     color: whitesmoke;
 }
+.front-view-title-box
+{
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.front-view-title-box > h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1rem;
+}
+.index-page-icons
+{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
 .img-fluid
 {
     /* ide megy majd a kép méretezés*/

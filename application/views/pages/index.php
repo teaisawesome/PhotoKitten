@@ -18,13 +18,31 @@
         </ul>
       </div>
   </nav>
+  <div class="front-view-title-box">
+    <h1>cats & share</h1>
+    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
+  </div>
 </div>
 <section class="jumbotron">
   <h1 class="display-4 text-center">
     <strong>100%</strong>-ban cicák!
   </h1>
-  <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ab obcaecati iusto distinctio amet totam aut dolorem ullam et ducimus repudiandae maiores repellendus quasi atque, doloremque cupiditate fugiat reiciendis deleniti.</p>
-  <hr class="my-4">
+  <section class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fa fa-camera index-page-icons"></i>
+        <h3>share</h3>
+      </div>
+      <div class="col-md-4">
+        <i class="material-icons index-page-icons"></i>
+        <h3>share</h3>
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-camera index-page-icons"></i>
+        <h3>share</h3>
+      </div>
+    </div>
+  </section>
 </section>
 <div class="container-fluid">
   <section class="row">
